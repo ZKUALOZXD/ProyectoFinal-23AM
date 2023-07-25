@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>ProyectoFinal_23AM</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="borrar.png" />
+    <None Remove="fondo.jpg" />
+    <None Remove="MainWindowImages\calif.png" />
+    <None Remove="MainWindowImages\candado.png" />
+    <None Remove="MainWindowImages\graduacion.png" />
+    <None Remove="MainWindowImages\logo.PNG" />
+    <None Remove="MainWindowImages\volver-flecha.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="borrar.png" />
+    <Resource Include="fondo.jpg" />
+    <Resource Include="MainWindowImages\calif.png" />
+    <Resource Include="MainWindowImages\candado.png" />
+    <Resource Include="MainWindowImages\graduacion.png" />
+    <Resource Include="MainWindowImages\logo.PNG" />
+    <Resource Include="MainWindowImages\volver-flecha.png" />
+  </ItemGroup>
+
+</Project>
